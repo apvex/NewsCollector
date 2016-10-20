@@ -12,7 +12,7 @@
 		CCC2FCB71DB913D50020F63E /* NCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCA51DB913D50020F63E /* NCAppDelegate.m */; };
 		CCC2FCB91DB913D50020F63E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCA71DB913D50020F63E /* main.m */; };
 		CCC2FCBA1DB913D50020F63E /* NCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAA1DB913D50020F63E /* NCDetailViewController.m */; };
-		CCC2FCBB1DB913D50020F63E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAC1DB913D50020F63E /* MasterViewController.m */; };
+		CCC2FCBB1DB913D50020F63E /* NCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAC1DB913D50020F63E /* NCMasterViewController.m */; };
 		CCC2FCBC1DB913D50020F63E /* NewsCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAE1DB913D50020F63E /* NewsCollector.xcdatamodeld */; };
 		CCC2FCBD1DB913D50020F63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FCB11DB913D50020F63E /* Assets.xcassets */; };
 		CCC2FCBE1DB913D50020F63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FCB21DB913D50020F63E /* LaunchScreen.storyboard */; };
@@ -51,8 +51,8 @@
 		CCC2FCA71DB913D50020F63E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCC2FCA91DB913D50020F63E /* NCDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCDetailViewController.h; sourceTree = "<group>"; };
 		CCC2FCAA1DB913D50020F63E /* NCDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCDetailViewController.m; sourceTree = "<group>"; };
-		CCC2FCAB1DB913D50020F63E /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CCC2FCAC1DB913D50020F63E /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CCC2FCAB1DB913D50020F63E /* NCMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMasterViewController.h; sourceTree = "<group>"; };
+		CCC2FCAC1DB913D50020F63E /* NCMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMasterViewController.m; sourceTree = "<group>"; };
 		CCC2FCAF1DB913D50020F63E /* NewsCollector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsCollector.xcdatamodel; sourceTree = "<group>"; };
 		CCC2FCB11DB913D50020F63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCC2FCB31DB913D50020F63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,8 +153,8 @@
 			children = (
 				CCC2FCA91DB913D50020F63E /* NCDetailViewController.h */,
 				CCC2FCAA1DB913D50020F63E /* NCDetailViewController.m */,
-				CCC2FCAB1DB913D50020F63E /* MasterViewController.h */,
-				CCC2FCAC1DB913D50020F63E /* MasterViewController.m */,
+				CCC2FCAB1DB913D50020F63E /* NCMasterViewController.h */,
+				CCC2FCAC1DB913D50020F63E /* NCMasterViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC2FCBC1DB913D50020F63E /* NewsCollector.xcdatamodeld in Sources */,
-				CCC2FCBB1DB913D50020F63E /* MasterViewController.m in Sources */,
+				CCC2FCBB1DB913D50020F63E /* NCMasterViewController.m in Sources */,
 				CCC2FCB91DB913D50020F63E /* main.m in Sources */,
 				CCC2FCB71DB913D50020F63E /* NCAppDelegate.m in Sources */,
 				CCC2FCBA1DB913D50020F63E /* NCDetailViewController.m in Sources */,

@@ -6,14 +6,14 @@
 //  Copyright © 2016 APVEX, LLC. All rights reserved.
 //
 
-#import "MasterViewController.h"
+#import "NCMasterViewController.h"
 #import "NCDetailViewController.h"
 
-@interface MasterViewController ()
+@interface NCMasterViewController ()
 
 @end
 
-@implementation MasterViewController
+@implementation NCMasterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

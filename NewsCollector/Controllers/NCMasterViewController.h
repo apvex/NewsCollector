@@ -11,7 +11,7 @@
 
 @class NCDetailViewController;
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface NCMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) NCDetailViewController *detailViewController;
 

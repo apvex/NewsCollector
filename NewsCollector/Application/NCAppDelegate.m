@@ -8,7 +8,7 @@
 
 #import "NCAppDelegate.h"
 #import "NCDetailViewController.h"
-#import "MasterViewController.h"
+#import "NCMasterViewController.h"
 
 @interface NCAppDelegate () <UISplitViewControllerDelegate>
 
@@ -25,7 +25,7 @@
     splitViewController.delegate = self;
 
     UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-    MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
+    NCMasterViewController *controller = (NCMasterViewController *)masterNavigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
