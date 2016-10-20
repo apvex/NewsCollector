@@ -6,15 +6,15 @@
 //  Copyright © 2016 APVEX, LLC. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "NCAppDelegate.h"
 #import "DetailViewController.h"
 #import "MasterViewController.h"
 
-@interface AppDelegate () <UISplitViewControllerDelegate>
+@interface NCAppDelegate () <UISplitViewControllerDelegate>
 
 @end
 
-@implementation AppDelegate
+@implementation NCAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
