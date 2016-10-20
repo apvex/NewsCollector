@@ -11,7 +11,7 @@
 		CCC2FC951DB90EA20020F63E /* NewsCollectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FC941DB90EA20020F63E /* NewsCollectorUITests.m */; };
 		CCC2FCB71DB913D50020F63E /* NCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCA51DB913D50020F63E /* NCAppDelegate.m */; };
 		CCC2FCB91DB913D50020F63E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCA71DB913D50020F63E /* main.m */; };
-		CCC2FCBA1DB913D50020F63E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAA1DB913D50020F63E /* DetailViewController.m */; };
+		CCC2FCBA1DB913D50020F63E /* NCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAA1DB913D50020F63E /* NCDetailViewController.m */; };
 		CCC2FCBB1DB913D50020F63E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAC1DB913D50020F63E /* MasterViewController.m */; };
 		CCC2FCBC1DB913D50020F63E /* NewsCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAE1DB913D50020F63E /* NewsCollector.xcdatamodeld */; };
 		CCC2FCBD1DB913D50020F63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FCB11DB913D50020F63E /* Assets.xcassets */; };
@@ -49,8 +49,8 @@
 		CCC2FCA51DB913D50020F63E /* NCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAppDelegate.m; sourceTree = "<group>"; };
 		CCC2FCA61DB913D50020F63E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC2FCA71DB913D50020F63E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CCC2FCA91DB913D50020F63E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CCC2FCAA1DB913D50020F63E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CCC2FCA91DB913D50020F63E /* NCDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCDetailViewController.h; sourceTree = "<group>"; };
+		CCC2FCAA1DB913D50020F63E /* NCDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCDetailViewController.m; sourceTree = "<group>"; };
 		CCC2FCAB1DB913D50020F63E /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		CCC2FCAC1DB913D50020F63E /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		CCC2FCAF1DB913D50020F63E /* NewsCollector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsCollector.xcdatamodel; sourceTree = "<group>"; };
@@ -151,8 +151,8 @@
 		CCC2FCA81DB913D50020F63E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CCC2FCA91DB913D50020F63E /* DetailViewController.h */,
-				CCC2FCAA1DB913D50020F63E /* DetailViewController.m */,
+				CCC2FCA91DB913D50020F63E /* NCDetailViewController.h */,
+				CCC2FCAA1DB913D50020F63E /* NCDetailViewController.m */,
 				CCC2FCAB1DB913D50020F63E /* MasterViewController.h */,
 				CCC2FCAC1DB913D50020F63E /* MasterViewController.m */,
 			);
@@ -319,7 +319,7 @@
 				CCC2FCBB1DB913D50020F63E /* MasterViewController.m in Sources */,
 				CCC2FCB91DB913D50020F63E /* main.m in Sources */,
 				CCC2FCB71DB913D50020F63E /* NCAppDelegate.m in Sources */,
-				CCC2FCBA1DB913D50020F63E /* DetailViewController.m in Sources */,
+				CCC2FCBA1DB913D50020F63E /* NCDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

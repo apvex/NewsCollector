@@ -6,13 +6,13 @@
 //  Copyright © 2016 APVEX, LLC. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "NCDetailViewController.h"
 
-@interface DetailViewController ()
+@interface NCDetailViewController ()
 
 @end
 
-@implementation DetailViewController
+@implementation NCDetailViewController
 
 #pragma mark - Managing the detail item
 
