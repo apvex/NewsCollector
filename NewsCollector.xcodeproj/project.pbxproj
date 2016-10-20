@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CCC2FC6B1DB90EA20020F63E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FC6A1DB90EA20020F63E /* main.m */; };
-		CCC2FC6E1DB90EA20020F63E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FC6D1DB90EA20020F63E /* AppDelegate.m */; };
-		CCC2FC711DB90EA20020F63E /* NewsCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FC6F1DB90EA20020F63E /* NewsCollector.xcdatamodeld */; };
-		CCC2FC741DB90EA20020F63E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FC731DB90EA20020F63E /* MasterViewController.m */; };
-		CCC2FC771DB90EA20020F63E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FC761DB90EA20020F63E /* DetailViewController.m */; };
-		CCC2FC7A1DB90EA20020F63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FC781DB90EA20020F63E /* Main.storyboard */; };
-		CCC2FC7C1DB90EA20020F63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FC7B1DB90EA20020F63E /* Assets.xcassets */; };
-		CCC2FC7F1DB90EA20020F63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FC7D1DB90EA20020F63E /* LaunchScreen.storyboard */; };
 		CCC2FC8A1DB90EA20020F63E /* NewsCollectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FC891DB90EA20020F63E /* NewsCollectorTests.m */; };
 		CCC2FC951DB90EA20020F63E /* NewsCollectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FC941DB90EA20020F63E /* NewsCollectorUITests.m */; };
+		CCC2FCB71DB913D50020F63E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCA51DB913D50020F63E /* AppDelegate.m */; };
+		CCC2FCB91DB913D50020F63E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCA71DB913D50020F63E /* main.m */; };
+		CCC2FCBA1DB913D50020F63E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAA1DB913D50020F63E /* DetailViewController.m */; };
+		CCC2FCBB1DB913D50020F63E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAC1DB913D50020F63E /* MasterViewController.m */; };
+		CCC2FCBC1DB913D50020F63E /* NewsCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCC2FCAE1DB913D50020F63E /* NewsCollector.xcdatamodeld */; };
+		CCC2FCBD1DB913D50020F63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FCB11DB913D50020F63E /* Assets.xcassets */; };
+		CCC2FCBE1DB913D50020F63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FCB21DB913D50020F63E /* LaunchScreen.storyboard */; };
+		CCC2FCBF1DB913D50020F63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FCB41DB913D50020F63E /* Main.storyboard */; };
+		CCC2FCC11DB914450020F63E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC2FCC01DB914450020F63E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,24 +39,25 @@
 
 /* Begin PBXFileReference section */
 		CCC2FC661DB90EA20020F63E /* NewsCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCC2FC6A1DB90EA20020F63E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CCC2FC6C1DB90EA20020F63E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CCC2FC6D1DB90EA20020F63E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CCC2FC701DB90EA20020F63E /* NewsCollector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsCollector.xcdatamodel; sourceTree = "<group>"; };
-		CCC2FC721DB90EA20020F63E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CCC2FC731DB90EA20020F63E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CCC2FC751DB90EA20020F63E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CCC2FC761DB90EA20020F63E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		CCC2FC791DB90EA20020F63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCC2FC7B1DB90EA20020F63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CCC2FC7E1DB90EA20020F63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CCC2FC801DB90EA20020F63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC2FC851DB90EA20020F63E /* NewsCollectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsCollectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC2FC891DB90EA20020F63E /* NewsCollectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCollectorTests.m; sourceTree = "<group>"; };
 		CCC2FC8B1DB90EA20020F63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCC2FC901DB90EA20020F63E /* NewsCollectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsCollectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC2FC941DB90EA20020F63E /* NewsCollectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCollectorUITests.m; sourceTree = "<group>"; };
 		CCC2FC961DB90EA20020F63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC2FCA41DB913D50020F63E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCC2FCA51DB913D50020F63E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCC2FCA61DB913D50020F63E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC2FCA71DB913D50020F63E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCC2FCA91DB913D50020F63E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CCC2FCAA1DB913D50020F63E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CCC2FCAB1DB913D50020F63E /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		CCC2FCAC1DB913D50020F63E /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		CCC2FCAF1DB913D50020F63E /* NewsCollector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsCollector.xcdatamodel; sourceTree = "<group>"; };
+		CCC2FCB11DB913D50020F63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC2FCB31DB913D50020F63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCC2FCB51DB913D50020F63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCC2FCC01DB914450020F63E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,8 @@
 		CCC2FC5D1DB90EA20020F63E = {
 			isa = PBXGroup;
 			children = (
-				CCC2FC681DB90EA20020F63E /* NewsCollector */,
+				CCC2FCC01DB914450020F63E /* Default-568h@2x.png */,
+				CCC2FCA21DB913D50020F63E /* NewsCollector */,
 				CCC2FC881DB90EA20020F63E /* NewsCollectorTests */,
 				CCC2FC931DB90EA20020F63E /* NewsCollectorUITests */,
 				CCC2FC671DB90EA20020F63E /* Products */,
@@ -101,33 +104,6 @@
 				CCC2FC901DB90EA20020F63E /* NewsCollectorUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CCC2FC681DB90EA20020F63E /* NewsCollector */ = {
-			isa = PBXGroup;
-			children = (
-				CCC2FC6C1DB90EA20020F63E /* AppDelegate.h */,
-				CCC2FC6D1DB90EA20020F63E /* AppDelegate.m */,
-				CCC2FC721DB90EA20020F63E /* MasterViewController.h */,
-				CCC2FC731DB90EA20020F63E /* MasterViewController.m */,
-				CCC2FC751DB90EA20020F63E /* DetailViewController.h */,
-				CCC2FC761DB90EA20020F63E /* DetailViewController.m */,
-				CCC2FC781DB90EA20020F63E /* Main.storyboard */,
-				CCC2FC7B1DB90EA20020F63E /* Assets.xcassets */,
-				CCC2FC7D1DB90EA20020F63E /* LaunchScreen.storyboard */,
-				CCC2FC801DB90EA20020F63E /* Info.plist */,
-				CCC2FC6F1DB90EA20020F63E /* NewsCollector.xcdatamodeld */,
-				CCC2FC691DB90EA20020F63E /* Supporting Files */,
-			);
-			path = NewsCollector;
-			sourceTree = "<group>";
-		};
-		CCC2FC691DB90EA20020F63E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CCC2FC6A1DB90EA20020F63E /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		CCC2FC881DB90EA20020F63E /* NewsCollectorTests */ = {
@@ -146,6 +122,65 @@
 				CCC2FC961DB90EA20020F63E /* Info.plist */,
 			);
 			path = NewsCollectorUITests;
+			sourceTree = "<group>";
+		};
+		CCC2FCA21DB913D50020F63E /* NewsCollector */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2FCA31DB913D50020F63E /* Application */,
+				CCC2FCA81DB913D50020F63E /* Controllers */,
+				CCC2FCAD1DB913D50020F63E /* Models */,
+				CCC2FCAE1DB913D50020F63E /* NewsCollector.xcdatamodeld */,
+				CCC2FCB01DB913D50020F63E /* Resources */,
+				CCC2FCB61DB913D50020F63E /* Views */,
+			);
+			path = NewsCollector;
+			sourceTree = "<group>";
+		};
+		CCC2FCA31DB913D50020F63E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2FCA41DB913D50020F63E /* AppDelegate.h */,
+				CCC2FCA51DB913D50020F63E /* AppDelegate.m */,
+				CCC2FCA61DB913D50020F63E /* Info.plist */,
+				CCC2FCA71DB913D50020F63E /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CCC2FCA81DB913D50020F63E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2FCA91DB913D50020F63E /* DetailViewController.h */,
+				CCC2FCAA1DB913D50020F63E /* DetailViewController.m */,
+				CCC2FCAB1DB913D50020F63E /* MasterViewController.h */,
+				CCC2FCAC1DB913D50020F63E /* MasterViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CCC2FCAD1DB913D50020F63E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCC2FCB01DB913D50020F63E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2FCB11DB913D50020F63E /* Assets.xcassets */,
+				CCC2FCB21DB913D50020F63E /* LaunchScreen.storyboard */,
+				CCC2FCB41DB913D50020F63E /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCC2FCB61DB913D50020F63E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +250,7 @@
 				TargetAttributes = {
 					CCC2FC651DB90EA20020F63E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4T4ZCDW3UR;
 					};
 					CCC2FC841DB90EA20020F63E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -251,9 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCC2FC7F1DB90EA20020F63E /* LaunchScreen.storyboard in Resources */,
-				CCC2FC7C1DB90EA20020F63E /* Assets.xcassets in Resources */,
-				CCC2FC7A1DB90EA20020F63E /* Main.storyboard in Resources */,
+				CCC2FCBE1DB913D50020F63E /* LaunchScreen.storyboard in Resources */,
+				CCC2FCBD1DB913D50020F63E /* Assets.xcassets in Resources */,
+				CCC2FCC11DB914450020F63E /* Default-568h@2x.png in Resources */,
+				CCC2FCBF1DB913D50020F63E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCC2FC771DB90EA20020F63E /* DetailViewController.m in Sources */,
-				CCC2FC741DB90EA20020F63E /* MasterViewController.m in Sources */,
-				CCC2FC711DB90EA20020F63E /* NewsCollector.xcdatamodeld in Sources */,
-				CCC2FC6E1DB90EA20020F63E /* AppDelegate.m in Sources */,
-				CCC2FC6B1DB90EA20020F63E /* main.m in Sources */,
+				CCC2FCBC1DB913D50020F63E /* NewsCollector.xcdatamodeld in Sources */,
+				CCC2FCBB1DB913D50020F63E /* MasterViewController.m in Sources */,
+				CCC2FCB91DB913D50020F63E /* main.m in Sources */,
+				CCC2FCB71DB913D50020F63E /* AppDelegate.m in Sources */,
+				CCC2FCBA1DB913D50020F63E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,20 +355,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CCC2FC781DB90EA20020F63E /* Main.storyboard */ = {
+		CCC2FCB21DB913D50020F63E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CCC2FC791DB90EA20020F63E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CCC2FC7D1DB90EA20020F63E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCC2FC7E1DB90EA20020F63E /* Base */,
+				CCC2FCB31DB913D50020F63E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC2FCB41DB913D50020F63E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC2FCB51DB913D50020F63E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -425,7 +462,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NewsCollector/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/NewsCollector/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apvex.NewsCollector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,7 +476,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NewsCollector/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/NewsCollector/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apvex.NewsCollector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +551,7 @@
 				CCC2FC9B1DB90EA20020F63E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC2FC9C1DB90EA20020F63E /* Build configuration list for PBXNativeTarget "NewsCollectorTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +560,7 @@
 				CCC2FC9E1DB90EA20020F63E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC2FC9F1DB90EA20020F63E /* Build configuration list for PBXNativeTarget "NewsCollectorUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,16 +569,17 @@
 				CCC2FCA11DB90EA20020F63E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CCC2FC6F1DB90EA20020F63E /* NewsCollector.xcdatamodeld */ = {
+		CCC2FCAE1DB913D50020F63E /* NewsCollector.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CCC2FC701DB90EA20020F63E /* NewsCollector.xcdatamodel */,
+				CCC2FCAF1DB913D50020F63E /* NewsCollector.xcdatamodel */,
 			);
-			currentVersion = CCC2FC701DB90EA20020F63E /* NewsCollector.xcdatamodel */;
+			currentVersion = CCC2FCAF1DB913D50020F63E /* NewsCollector.xcdatamodel */;
 			path = NewsCollector.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
