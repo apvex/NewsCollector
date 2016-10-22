@@ -10,4 +10,6 @@
 
 @interface NCMainViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *mainViewCellImageView;
+@property (weak, nonatomic) IBOutlet UILabel *mainViewCellLabel;
 @end
